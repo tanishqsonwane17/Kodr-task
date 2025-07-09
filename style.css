@@ -13,15 +13,13 @@ main{
     width: 100%;
     display: grid;
     place-items: center;;
-    padding-top: 3vw;
 }
 .container{
     height: 80vh;
-    width: 90%;
+    width: 100%;
     background: url('./bg.png');
     background-size: cover;
     background-position: center;
-    
 }
 .container ul{
     display: flex;
@@ -65,7 +63,7 @@ article{
     width: 100%;
     display: flex;
     align-items: center;
-    margin-top: 15vw;
+    margin-top: 7vw;
     flex-direction: column;
 }
 article h2{
