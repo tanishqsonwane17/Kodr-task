@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family : Gilroy;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;;
+    padding-top: 3vw;
+}
+.container{
+    height: 80vh;
+    width: 90%;
+    background: url('./bg.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+.container ul{
+    display: flex;
+    margin-top: 2vw;
+    gap: 20px;
+    list-style: none;
+    
+}
+ .container nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.744);
+}
+#heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+    color: white;
+}
+#heading h1{
+    font-size: 3vw;
+    font-weight: 100;
+    color: rgb(154, 154, 154);
+    text-transform: uppercase;
+}
+.content{
+    /* height: 100; */
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+article{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 15vw;
+    flex-direction: column;
+}
+article h2{
+    margin-top: 8vw;
+    font-size: .8vw;
+    font-weight: 100;
+    color: rgb(154, 154, 154);
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.content h1{
+    font-size: 2.5vw;
+    font-weight: 100;
+    color: rgb(154, 154, 154);
+    text-transform: uppercase;
+}
+.para{
+    height: 40px;
+    padding-left: 20vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: semi-bold;
+    margin-top: 2vw;
+    color: rgb(126, 126, 126);
+    padding-right: 20vw;
+    margin-left: 2vw;
+}
+i{
+    color: black;
+}
+hr{
+    width: 80%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.622);
+    margin-top: 5vw;
+}
+.store{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 8vw;
+    flex-direction: column;
+}
+.store .box{
+    height: 17vw;
+    width: 15vw;
+    margin: 2vw;
+}
+.boxes{
+    display: flex;
+    margin-top: 5vw;
+}
+.boxes img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.boxes h6{
+    text-align: center;
+    margin-top: 1vw;
+    color: rgb(59, 59, 59);
+}
+.box p{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.store .button button{
+    color: black;
+    cursor: pointer;
+    margin-top:7vw;
+    width: 8vw;
+    border: 1px solid black;
+    height: 2vw;
+    background-color: transparent;
+}
+.signup{
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.signup h1{
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 10px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+.signup :nth-child(1){
+    margin-top: 2vw;
+    width: 20vw;
+    padding: 3px;
+}
+.signup :nth-child(2){
+    padding: 1px;
+    
+}
+footer{
+    height: 30vh;
+    width: 100%;
+    background-color:#a7a7a7;
+    display: flex;
+}
+footer nav {
+    position: relative;
+}
+footer nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin: 5vw;
+    gap: 10px;
+    color: rgb(255, 250, 250);
+    font-size: 11px;
+}
+.nav ul{
+    position: absolute;
+    right: 18vw;
+    list-style: none;
+    color: white;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column ;
+    gap: .6vw;
+    font-size: 11px;
+}
+.nav2 ul{
+    position: absolute;
+    right: 4vw;
+    list-style: none;
+    color: white;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column ;
+    gap: .6vw;
+    font-size: 11px;
+}
